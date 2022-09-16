@@ -16,3 +16,9 @@ isEnable = true
 
 //Types for Array 
 let guestes:string[]= ['Lace', 'Noel','Marisola']
+
+//Types for a function 
+//let learnTypeScript:(name:string)=>string
+const learnTypeScript = function (name:string):string {
+  return name.toUpperCase()
+}
