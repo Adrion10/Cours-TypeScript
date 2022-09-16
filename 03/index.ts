@@ -21,4 +21,6 @@ let guestes:string[]= ['Lace', 'Noel','Marisola']
 //let learnTypeScript:(name:string)=>string
 const learnTypeScript = function (name:string):string {
   return name.toUpperCase()
+
+  
 }
