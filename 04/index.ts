@@ -5,3 +5,5 @@ year1= 1990
 year1='abc'
 console.log(typeof year1);
 //Type Inference
+let guest = ['Noel', 'Marisola', 'Lace',22, true]
+console.log(typeof guest);
