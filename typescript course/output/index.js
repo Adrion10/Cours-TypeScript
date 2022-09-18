@@ -1,3 +1,4 @@
+"use strict";
 // let name = "Lace";
 // name = 1;
 // console.log(typeof name);
