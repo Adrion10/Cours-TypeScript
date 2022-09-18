@@ -19,3 +19,4 @@ let guestes = ['Lace', 'Noel', 'Marisola'];
 const learnTypeScript = function (name) {
     return name.toUpperCase();
 };
+//# sourceMappingURL=index.js.map

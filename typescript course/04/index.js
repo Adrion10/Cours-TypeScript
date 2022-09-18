@@ -8,3 +8,4 @@ console.log(typeof year1);
 //Type Inference
 let guest = ['Noel', 'Marisola', 'Lace', 22, true];
 console.log(typeof guest);
+//# sourceMappingURL=index.js.map
