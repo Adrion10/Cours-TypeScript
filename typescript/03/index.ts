@@ -1,9 +1,9 @@
-//Primitive Types
+//PRIMITIVE TYPES
 
-//stering
+//string
 let MyName:string= "Lace"
 //number
-let year:number= 1990
+let year:number = 2022
 //boolean
 let isEnable:boolean
 isEnable = true
@@ -11,11 +11,11 @@ isEnable = true
 //undefined
 //symbol
 
-//Object Types
+//OBJECTS TYPES
 //arrays, objects,clases
 
 //Types for Array 
-let guestes:string[]= ['Lace', 'Noel','Marisola']
+let guests:string[]= ['Lace', 'Noel','Marisola']
 
 //Types for a function 
 //let learnTypeScript:(name:string)=>string
