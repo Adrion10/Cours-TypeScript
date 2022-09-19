@@ -1,4 +1,4 @@
 const learnTypeScript = (name: string) => {
   console.log(name); 
 }
-learnTypeScript('Lace')
+learnTypeScript('Lace and Marisola and')
