@@ -1,1 +1,1 @@
-declare let price: any;
+declare let price: number;
