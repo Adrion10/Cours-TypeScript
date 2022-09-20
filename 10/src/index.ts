@@ -6,7 +6,10 @@
 // price = undefined;
 // console.log(price);
 
-let price;
-console.log(typeof price);
-price = null;
-console.log(typeof price);
+// let price;
+// console.log(typeof price);
+// price = null;
+// console.log(typeof price);
+
+let price: undefined;
+console.log(typeof price, price);
