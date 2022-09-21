@@ -1,5 +1,5 @@
 //Object type
-
+//Create our type
 type Fruit = {
   name: string;
   taste: string;

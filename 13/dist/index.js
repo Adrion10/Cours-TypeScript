@@ -1,5 +1,4 @@
 "use strict";
-//Object type
 //fruit; //: object;
 let fruit1 = {
     name: "mango",
