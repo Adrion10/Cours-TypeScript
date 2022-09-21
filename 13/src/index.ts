@@ -1,16 +1,27 @@
 //Object type
-let fruit: {
+
+type Fruit = {
   name: string;
   taste: string;
   color: string;
+  allSeason: boolean;
 };
+
 //fruit; //: object;
-fruit = {
+
+let fruit1: Fruit = {
   name: "mango",
   taste: "Sweet",
   color: "Yellow",
+  allSeason: false,
+};
+let fruit2: Fruit = {
+  name: "orange",
+  taste: "Sweet-tart",
+  color: "Orange",
+  allSeason: false,
 };
 
-console.log(typeof fruit); // object
-console.log(fruit);
-console.log(typeof fruit.name);
+console.log(typeof fruit1); // object
+console.log(fruit1);
+console.log(typeof fruit1.name);

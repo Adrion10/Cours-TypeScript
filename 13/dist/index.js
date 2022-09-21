@@ -1,12 +1,18 @@
 "use strict";
 //Object type
-let fruit;
 //fruit; //: object;
-fruit = {
+let fruit1 = {
     name: "mango",
     taste: "Sweet",
     color: "Yellow",
+    allSeason: false,
 };
-console.log(typeof fruit); // object
-console.log(fruit);
-console.log(typeof fruit.name);
+let fruit2 = {
+    name: "orange",
+    taste: "Sweet-tart",
+    color: "Orange",
+    allSeason: false,
+};
+console.log(typeof fruit1); // object
+console.log(fruit1);
+console.log(typeof fruit1.name);
