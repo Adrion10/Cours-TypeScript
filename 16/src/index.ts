@@ -7,7 +7,9 @@ interface Fruit {
   color: string;
   allSeason: boolean;
 }
-
+interface Mango extends Fruit {
+  price: number;
+}
 //fruit; //: object;
 
 let fruit1: Fruit = {
