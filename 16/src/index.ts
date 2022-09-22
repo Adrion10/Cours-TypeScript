@@ -1,15 +1,16 @@
 //Type Alias & Interface
 //Alias
-//type
-interface Fruit {
+//interface
+type Fruit = {
   name: string;
   taste: string;
   color: string;
   allSeason: boolean;
-}
-interface Mango extends Fruit {
+};
+//interface
+type Mango = Fruit & {
   price: number;
-}
+};
 //fruit; //: object;
 
 let fruit1: Fruit = {

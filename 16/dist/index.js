@@ -1,15 +1,14 @@
 "use strict";
-//Union Type
-function printId(id) {
-    if (typeof id === "string") {
-        console.log(id.toUpperCase());
-    }
-    else
-        console.log(id);
-}
-// printId(123);
-printId("hello");
-// let ID: string | number | boolean;
-// ID = 123;
-// ID = "123";
-// ID = true;
+//fruit; //: object;
+let fruit1 = {
+    name: "mango",
+    taste: "Sweet",
+    color: "Yellow",
+    allSeason: false,
+};
+let fruit2 = {
+    name: "orange",
+    taste: "Sweet-tart",
+    color: "Orange",
+    allSeason: false,
+};
