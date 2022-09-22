@@ -1,4 +1,4 @@
-//Optional Properties
+//Optional Properties & Non-null Assertions
 
 type Fruit = {
   name: string;
@@ -15,9 +15,18 @@ let fruit1: Fruit = {
   allSeason: false,
   price: 10,
 };
+console.log(fruit1.price);
+
 let fruit2: Fruit = {
   name: "orange",
   taste: "Sweet-tart",
   color: "Orange",
   allSeason: false,
 };
+
+function getPrice(price: number) {
+  return price + 10;
+}
+console.log(getPrice(10));
+console.log(getPrice(fruit1.price!));
+console.log(getPrice(fruit2.price!));

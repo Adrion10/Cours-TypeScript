@@ -3,9 +3,8 @@ declare type Fruit = {
     taste: string;
     color: string;
     allSeason: boolean;
-};
-declare type Mango = Fruit & {
-    price: number;
+    price?: number;
 };
 declare let fruit1: Fruit;
 declare let fruit2: Fruit;
+declare function getPrice(price: number): number;
