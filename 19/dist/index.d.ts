@@ -6,5 +6,6 @@ declare class Coordinate {
 }
 declare class MyCoordinate extends Coordinate {
     getX(): number;
+    setX(value: number): void;
 }
 declare const point: MyCoordinate;

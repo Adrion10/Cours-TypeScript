@@ -16,6 +16,10 @@ class MyCoordinate extends Coordinate {
     getX() {
         return this.x;
     }
+    setX(value) {
+        this.x = value;
+    }
 }
 const point = new MyCoordinate(44, 55);
+point.setX(23);
 console.log(point.getX());
