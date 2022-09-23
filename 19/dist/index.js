@@ -13,13 +13,22 @@ class Coordinate {
     abc() { }
 }
 class MyCoordinate extends Coordinate {
-    getX() {
+    // public getX() {
+    //   return this.x;
+    // }
+    // public setX(value: number) {
+    //   this.x = value;
+    // }
+    // get & set
+    get X() {
         return this.x;
     }
-    setX(value) {
+    set X(value) {
         this.x = value;
     }
 }
 const point = new MyCoordinate(44, 55);
-point.setX(23);
-console.log(point.getX());
+point.X = 22;
+// point.setX(23);
+// console.log(point.getX());
+console.log(point.X);

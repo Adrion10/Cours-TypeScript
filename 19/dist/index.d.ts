@@ -5,7 +5,7 @@ declare class Coordinate {
     protected abc(): void;
 }
 declare class MyCoordinate extends Coordinate {
-    getX(): number;
-    setX(value: number): void;
+    get X(): number;
+    set X(value: number);
 }
 declare const point: MyCoordinate;
