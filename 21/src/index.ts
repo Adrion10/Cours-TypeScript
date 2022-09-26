@@ -1,4 +1,9 @@
-function getFruit(fruit: { name: string; price: number }) {
+interface Fruit {
+  name: string;
+  price: number;
+}
+
+function getFruit(fruit: Fruit) {
   return `${fruit.name} is having price of €${fruit.price}`;
 }
 
