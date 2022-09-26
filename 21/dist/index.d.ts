@@ -1,8 +1,7 @@
-declare class Fruit {
+interface Fruit {
+    name: string;
     readonly price: number;
-    protected static count: number;
-    constructor(price: number);
-    static getCount(): number;
+    color?: string;
 }
-declare const mango: Fruit;
-declare const apel: Fruit;
+declare function getFruit(fruit: Fruit): string;
+declare let mango: Fruit;

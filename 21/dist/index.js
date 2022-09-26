@@ -1,25 +1,7 @@
 "use strict";
-// Readonly Vs Static
-class Fruit {
-    constructor(price) {
-        this.price = price;
-        //this.count++;
-        Fruit.count++;
-    }
-    static getCount() {
-        return Fruit.count;
-    }
+function getFruit(fruit) {
+    return `${fruit.name} is having price of €${fruit.price}`;
 }
-//count: number = 0;
-// static count: number = 0;
-Fruit.count = 0;
-const mango = new Fruit(20);
-// mango.price = 2;
-console.log(mango.price);
-//console.log(mango.count);
-console.log(Fruit.count);
-const apel = new Fruit(22);
-// mango.price = 2;
-console.log(apel.price);
-//console.log(apel.count);
-console.log(Fruit.count);
+let mango = { name: "Mango", price: 10 };
+// mango.price = 9;
+console.log(getFruit(mango));

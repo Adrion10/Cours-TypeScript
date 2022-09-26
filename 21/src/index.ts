@@ -1,10 +1,12 @@
 interface Fruit {
   name: string;
-  price: number;
+  readonly price: number;
+  color?: string;
 }
 
 function getFruit(fruit: Fruit) {
   return `${fruit.name} is having price of €${fruit.price}`;
 }
-
-console.log(getFruit({ name: "Mango", price: 32 }));
+let mango: Fruit = { name: "Mango", price: 10 };
+// mango.price = 9;
+console.log(getFruit(mango));
