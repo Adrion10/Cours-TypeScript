@@ -8,5 +8,5 @@ class Fruit {
   }
 }
 const mango = new Fruit(20);
-// mango.price = 2;
+mango.price = 2;
 console.log(mango.price);
