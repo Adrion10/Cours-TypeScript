@@ -1,18 +1,25 @@
 "use strict";
 // Generics
 let arrNumb = [23, 47, 56, 56, 433, 3333];
-function getRandomNumber(arr) {
+function getRandomElementNumber(arr) {
     const index = Math.floor(Math.random() * arr.length);
     return arr[index];
     // const index = 1;
     // return arr[index];
 }
-console.log(getRandomNumber(arrNumb));
+console.log(getRandomElementNumber(arrNumb));
 let arrString = ["a", "b", "c", "d", "g"];
-function getRandomString(arr) {
+function getRandomElementString(arr) {
     const index = Math.floor(Math.random() * arr.length);
     return arr[index];
     // const index = 1;
     // return arr[index];
 }
-console.log(getRandomString(arrString));
+console.log(getRandomElementString(arrString));
+function getRandomElement(arr) {
+    const index = Math.floor(Math.random() * arr.length);
+    return arr[index];
+}
+let result;
+console.log(getRandomElement(arrString));
+console.log(getRandomElement(arrNumb));

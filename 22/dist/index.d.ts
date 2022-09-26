@@ -1,4 +1,6 @@
 declare let arrNumb: number[];
-declare function getRandomNumber(arr: number[]): number;
+declare function getRandomElementNumber<T>(arr: T[]): T;
 declare let arrString: string[];
-declare function getRandomString(arr: string[]): string;
+declare function getRandomElementString<T>(arr: T[]): T;
+declare function getRandomElement<T>(arr: T[]): T;
+declare let result: string;
