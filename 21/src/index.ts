@@ -10,3 +10,14 @@ function getFruit(fruit: Fruit) {
 let mango: Fruit = { name: "Mango", price: 10 };
 // mango.price = 9;
 console.log(getFruit(mango));
+
+class MyFruit implements Fruit {
+  name: string;
+  price: number;
+  color?: string;
+
+  constructor(name: string, price: number) {
+    this.name = name;
+    this.price = price;
+  }
+}

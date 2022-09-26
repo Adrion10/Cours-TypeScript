@@ -5,3 +5,9 @@ interface Fruit {
 }
 declare function getFruit(fruit: Fruit): string;
 declare let mango: Fruit;
+declare class MyFruit implements Fruit {
+    name: string;
+    price: number;
+    color?: string;
+    constructor(name: string, price: number);
+}
