@@ -18,10 +18,10 @@ const mango = new Fruit(20);
 // mango.price = 2;
 console.log(mango.price);
 //console.log(mango.count);
-console.log(Fruit.count);
+console.log(Fruit.getCount());
 
-const apel = new Fruit(22);
+const appel = new Fruit(22);
 // mango.price = 2;
-console.log(apel.price);
+console.log(appel.price);
 //console.log(apel.count);
-console.log(Fruit.count);
+console.log(Fruit.getCount());

@@ -5,4 +5,4 @@ declare class Fruit {
     static getCount(): number;
 }
 declare const mango: Fruit;
-declare const appel: Fruit;
+declare const apel: Fruit;
