@@ -3,12 +3,15 @@
 class Fruit {
   readonly price: number; //=20;
   //count: number = 0;
-  static count: number = 0;
-
+  // static count: number = 0;
+  protected static count: number = 0;
   constructor(price: number) {
     this.price = price;
     //this.count++;
     Fruit.count++;
+  }
+  static getCount() {
+    return Fruit.count;
   }
 }
 const mango = new Fruit(20);

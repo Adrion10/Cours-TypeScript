@@ -6,8 +6,12 @@ class Fruit {
         //this.count++;
         Fruit.count++;
     }
+    static getCount() {
+        return Fruit.count;
+    }
 }
 //count: number = 0;
+// static count: number = 0;
 Fruit.count = 0;
 const mango = new Fruit(20);
 // mango.price = 2;
